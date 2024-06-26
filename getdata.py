@@ -34,7 +34,3 @@ def fetch_all_rows_as_dict(id):
         if connection.is_connected():
             cursor.close()
             connection.close()
-
-# Example usage
-# result_dict = fetch_all_rows_as_dict(7)
-# print(result_dict)
